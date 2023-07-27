@@ -4,21 +4,18 @@
     background-image: url("../Menu.svg");
     display: inline-block
 }
-
-
 .cabeçalho{
-     background-color:var(--branco);
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     position: relative;
-}
-
-
-.container {
+    background-color: var(--branco);
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    position: relative;
 }
+    .container{
+        display: flex;
+        align-items: center;
+    }
+
 
 .container__imagem {
     padding: 1em;
@@ -43,6 +40,7 @@
    }
    .lista-menu__titulo{
     color: var(--laranja);
+    font-weight: 700;
    }
 
    .lista-menu__link{
